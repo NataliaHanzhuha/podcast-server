@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "podcast-therapy-api",
+  "private_key_id": "0061739569dd6952828f13977e5b784588fee29f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3e1q75+VbYaBp\n6lUlhyKlUeCJtCydZRGCAxoQmB2UdBBubCEAJiS80v/B05g3tfRx9gXjBWSW13mz\njjxxvxkvk2/w7N8dRW3kv7eHitxLTNXoKufGx1n3ex/zV4Sud5+btwYjJNIXTdI0\n6aK/ZvGyMtcvbRxpX2HjOCC6tHu0Fz39tZpuK8VuExl6etBkURc9A8B5oO7Z3waP\n5rQ3zAEmsRQdPgDwKKcxVeP1B1mF4D1+B+f+0ddntW3Emg6fQ6r7vhsksuMIXpQE\nFtY6yvaTche2kOG7v1Laz2iUyFf5jxCWmfqipMEw+GXXODof+/eeJUJ6zH953+SS\ncoeBrhDNAgMBAAECggEAJiyWw+YbQNA2yxqLVRfA1FMM67GOH8AlrJ5fF6lCbD7a\npVK/afPFrHic6DORJbQoc+ZrMqDOXRjfNAWpm0PWZmDfRynNQN6PXuqpcVypeUw2\n7AszNlcHJ5eZHeytSQxP65qgfwLb6CfTjpk2eGqfakMsJKynnt/OsrLckmPXIfBi\njSIgJTmKbyVe+VqLvAvVyetyCO/k5D/tpX+hUAYMF9H/AJAvIjgrVjEMXV0rKgW6\n+BQjEscEqj9hHfgFViCHD1dhPHSFFlkTuuPsGDPp8Nk4yR8yc0UBNjaGvAWdZpBk\n+j5bcs2Ni4+h4QL53ttsZCwlBuRayJRglUR+L0ihQQKBgQDqAPusEPTIZ6V1X3fJ\n/+lqfV5Fvao3voPUT5KZzBbB8SS1wWxW/ZQ0op2fmrY+nAhkvYFiUOGd/ErpN1Yc\nWuuqensuC9xBvg5Y/j6mbXwD2NozuP5LKnrSk3xXuD/Wh2KB2SpLiIsORT1/2M76\nRkNPmm0wy8Sgg/k1Af/8+mZswQKBgQDIup8RhKcREFOIRuXPQ0VOSZhUF9NnJ/Ui\nJNFyoHo2O4pfVXcD3e5kYpUNvjjRvoR2hVXxrcSG4TQ9/6wTTtY2ZpCQP7/LWAGv\nN2XbgocnGLCdVF1MjYhAI7t0ghaP+9g4WEfHcy/l+hgd43jPsUsjSdtHEI3n9t6k\ndMkyih5LDQKBgQDOC92PjkKsMC+OIWkOMkvq28dl63L1sMjN6t8wk3e6gEaN0GpA\nUvrsOgBHKGiuyp/NbNx/oK55eUzQ/EvTne+DZmQOkJz6OorRq9WooCEiFhFUl+E6\neIY742gKqY90rDN+GKXYarve7fMQHu1pjPL6JgVdgR97I5oNJdyteiM0QQKBgE4c\niVAI3fZ+8vKiHEXGeM7ZRsTarLKE0xihWTwRBN3b16H3oSPJFj7MOhKqBnRgfi2c\n/2/X3hVax7ikqLKuyB9NVE498IXRzn3/wcxlA/EL45alwNTMcsv627Sf9uW67E4o\n1G3h/i6xXvcqkNXJuWKXGBSUdZRh9gvrQmw/YUB1AoGBAIfjkBErA2h4I4Cv2TDJ\n9Fp7C7p3Mlp+c6eW7RgeBt7McpeqiAfO2dNKUzZ7eusf+rU5OL7Ex/5hDdvPV2sz\nuBaBBnczTmBusQB9nTZLZbIn3XmM2aBgZ1qGGqc+wrwkODmczJBMfyXcqueg7IsH\n7KL7HLCKIo0sZ9FcCNc9pDK4\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ky5zy@podcast-therapy-api.iam.gserviceaccount.com",
+  "client_id": "111391485382295285581",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ky5zy%40podcast-therapy-api.iam.gserviceaccount.com"
+}
