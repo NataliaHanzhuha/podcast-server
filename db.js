@@ -8,4 +8,27 @@ const authApp = initializeApp({
   });
   
 const db = getFirestore(authApp);
-module.exports = db;
+
+const getBooks = async() => {
+  return await db.collection('books').get();
+}
+
+const setBook = (id) => {
+  return db.collection("books").doc(id);
+}
+
+const getVideos = async () => {
+ return await db.collection('videos').get()
+}
+
+const setVideo = (id) => {
+  return db.collection("videos").doc(id);
+}
+
+module.exports = {
+  db,
+  getBooks,
+  setBook,
+  getVideos,
+  setVideo
+};

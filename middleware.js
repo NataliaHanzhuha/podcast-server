@@ -1,5 +1,11 @@
 const axios = require('axios');
-const db = require("./db");
+const {  
+    db,
+    getBooks,
+    setBook,
+    getVideos,
+    setVideo
+} = require("./db");
 
 const apiKey = 'AIzaSyDizEz7mCnAJucPd5aXeyV1Uwmp69Q7O2s';
 const baseApiUrl = 'https://www.googleapis.com/youtube/v3';
@@ -11,7 +17,7 @@ const postBooks = async (req, res) => {
     const booksArray = req.body;
 
     let books = [];
-    const querySnapshot = await db.collection('books').get();
+    const querySnapshot = await getBooks();
 
     querySnapshot.forEach((doc) => {
         books.push(doc.data());
@@ -25,7 +31,7 @@ const postBooks = async (req, res) => {
 
     if (filteredBooks.length) {
         filteredBooks.forEach((book) => {
-            const docRef = db.collection("books").doc(new Date().getTime().toString());
+            const docRef = setBook(new Date().getTime().toString());
             batch.set(docRef, book);
         });
 
@@ -37,7 +43,7 @@ const postBooks = async (req, res) => {
 
 const getVideosInfo = async (req, res) => {
     const batch = db.batch();
-    const querySnapshot = await db.collection('videos').get();
+    const querySnapshot = await getVideos();
     let videos = [];
 
     querySnapshot.forEach((doc) => {
@@ -74,7 +80,7 @@ const getVideosInfo = async (req, res) => {
 
     if (filteredVideos.length) {
         filteredVideos.forEach((item) => {
-            const docRef = db.collection("videos").doc(item.snippet.resourceId?.videoId);
+            const docRef = setVideo(item.snippet.resourceId?.videoId);
             batch.set(docRef, item);
         })
 
